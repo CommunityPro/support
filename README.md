@@ -14,7 +14,7 @@ This is a list of all frequently asked questions about this community.
 
 ## 🚸 How do I join CommunityPro?
 
-You can join this organization by <a href="">Raising an issue on this repository</a>.
+You can join this organization by <a href="https://github.com/CommunityPro/support/issues/new?assignees=evavic44&labels=invite+me+to+the+organisation&template=invitation.yml&title=Please+invite+me+to+the+GitHub+Community+Organization">Raising an issue on this repository</a>.
 
 ## 👀 How to make the organization public?
 
