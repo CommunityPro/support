@@ -16,21 +16,21 @@ This is a list of all frequently asked questions about this community.
 
 You can join this organization by <a href="">Raising an issue on this repository</a>.
 
-## How to make the organization show in your profile (Make organization public)?
+## 👀 How to make the organization public?
 
 Are you already a member of this community, follow these steps to make this organization public on your profile.
 
 - Navigate to the <a href="https://github.com/CommunityPro">community homepage</a> and click the <a href="https://github.com/orgs/CommunityPro/people">people</a> link.
 
-<!-- <img src="" width="300px"> people link -->
+<img src="https://user-images.githubusercontent.com/62628408/145676775-9bb32665-3e61-4118-be3c-0bf7e3ea4078.png" width="700px">
 
 - In the search box, enter your name or username.
 
-<!-- <img src="" width="300px"> search name -->
+<img src="https://user-images.githubusercontent.com/62628408/145676778-ed753bb0-47dc-44ab-8a3a-bc8c818834bb.png" width="700px">
 
 - On the far right, click the `private` dropdown and select `public`
 
-<!-- <img src="" width="300px"> search name -->
+<img src="https://user-images.githubusercontent.com/62628408/145676781-c25ec729-2cd9-46c6-822e-223c9be33ff5.png" width="700px">
 
 Now you should see communitypro on your GitHub profile page.
 
