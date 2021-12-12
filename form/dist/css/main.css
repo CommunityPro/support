@@ -14,8 +14,7 @@ body {
   color: #ffffff;
   font-family: "Proxima", sans-serif;
   line-height: 1.5;
-  font-size: 0.9rem;
-  background: #1d1e22; }
+  font-size: 0.9rem; }
 
 img {
   width: 100%; }
@@ -83,8 +82,7 @@ a {
 #container-right {
   padding: 1.5rem 2rem;
   border-radius: 0 5px 5px 0;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  background: #1d1e22; }
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; }
   #container-right .form-container {
     display: flex;
     flex-direction: column;
@@ -130,17 +128,17 @@ a {
       background: url(/form/dist/assets/at-sign.svg) no-repeat scroll 0.4375rem 0.4375rem/cover;
       background-size: 1rem;
       background-position-x: 10px;
-      background-position-y: 15px; }
+      background-position-y: 18px; }
     #container-right .form-group input[type="email"] {
       background: url(/form/dist/assets/mail.svg) no-repeat scroll 0.4375rem 0.4375rem/cover;
       background-size: 1rem;
       background-position-x: 10px;
-      background-position-y: 15px; }
+      background-position-y: 18px; }
     #container-right .form-group input[type="tel"] {
       background: url(/form/dist/assets/contact.svg) no-repeat scroll 0.4375rem 0.4375rem/cover;
       background-size: 1rem;
       background-position-x: 10px;
-      background-position-y: 15px; }
+      background-position-y: 18px; }
     #container-right .form-group input[type="submit"] {
       background: #ffcd42;
       border: none;
