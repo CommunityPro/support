@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%; }
+
+@font-face {
+  font-family: "Proxima";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Proxima"), url("/assets/font/proxima_nova_light.otf") format("truetype"); }
+
+a {
+  color: #ffffff; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1200px;
+  background: #1d1e22;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  background: #1d1e22 url(/form/dist/assets/communitypro-banner.png) no-repeat center center/cover; }
+
+.container {
+  background: black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-rows: minmax(250px, auto); }
+  .container .container-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem; }
+    .container .container-left h1 {
+      font-size: 4rem;
+      line-height: 1;
+      margin-bottom: 1rem;
+      color: #ffcd42; }
+    .container .container-left p {
+      font-family: "Proxima", sans-serif;
+      max-width: 500px;
+      text-align: left;
+      font-size: 1rem; }
+  .container .container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .container .container-right a {
+      font-size: 3rem; }
+      .container .container-right a .icon {
+        background: #111;
+        border: 1px solid #333;
+        padding: 0.3rem 0.5rem;
+        border-radius: 5px; }
+        .container .container-right a .icon:hover {
+          background: transparent; }
+  .container .socials {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0; }
+    .container .socials a {
+      color: #ffffff;
+      font-size: 1.8rem;
+      text-decoration: none;
+      padding: 0.1rem 0.5rem;
+      border: 1px solid #333;
+      border-radius: 5px;
+      margin-right: 1rem; }
+      .container .socials a:last-child {
+        margin: 0; }
+      .container .socials a:hover {
+        background: #ffcd42; }
+      .container .socials a .align {
+        margin-top: 0.4rem; }
+    .container .socials img {
+      width: 25px; }
+
+@media (max-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100%;
+    padding: 2rem;
+    margin: 0.4rem;
+    text-align: center; }
+    .container .container-left {
+      align-items: center; }
+      .container .container-left h1 {
+        font-size: 2rem; } }
