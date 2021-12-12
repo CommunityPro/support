@@ -4,7 +4,7 @@
   "description": "<p align=\"center\" ><img src=\"https://user-images.githubusercontent.com/62628408/145680540-3348f715-0fa2-40a5-b7e1-5224ef0c8602.png\" width=\"100\"></p>",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w form/scss/ -o form/dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "repository": {
     "type": "git",

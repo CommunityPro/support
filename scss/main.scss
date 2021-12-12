@@ -59,9 +59,9 @@ a {
 // Left page
 #container-left {
   @include flex-left;
-  background: url("/form/dist/assets/communitypro-banner.png") no-repeat center
+  background: url("/dist/assets/communitypro-banner.png") no-repeat center
     center/cover;
-  background-position-x: 25%;
+  background-position-x: 60%;
   border-radius: 5px 0 0 5px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   position: relative;
@@ -167,7 +167,7 @@ a {
 
     //  Username
     input[type="name"] {
-      background: url(/form/dist/assets/at-sign.svg) no-repeat scroll 0.4375rem
+      background: url(/dist/assets/at-sign.svg) no-repeat scroll 0.4375rem
         0.4375rem / cover;
       background-size: 1rem;
       background-position-x: 10px;
@@ -176,7 +176,7 @@ a {
 
     //  Email
     input[type="email"] {
-      background: url(/form/dist/assets/mail.svg) no-repeat scroll 0.4375rem
+      background: url(/dist/assets/mail.svg) no-repeat scroll 0.4375rem
         0.4375rem / cover;
       background-size: 1rem;
       background-position-x: 10px;
@@ -185,7 +185,7 @@ a {
 
     //  Telephone
     input[type="tel"] {
-      background: url(/form/dist/assets/contact.svg) no-repeat scroll 0.4375rem
+      background: url(/dist/assets/contact.svg) no-repeat scroll 0.4375rem
         0.4375rem / cover;
       background-size: 1rem;
       background-position-x: 10px;
@@ -202,7 +202,7 @@ a {
     }
 
     input[type="submit"]:hover {
-      background: darken($color: $primary-color, $amount: 5);
+      background: lighten($color: $primary-color, $amount: 3);
     }
   }
 
