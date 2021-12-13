@@ -106,7 +106,8 @@ a {
     margin: 0.4rem 0; }
     #container-right .form-group label {
       font-size: 0.9rem; }
-    #container-right .form-group input {
+    #container-right .form-group input,
+    #container-right .form-group .btn {
       font-family: "Poppins", sans-serif;
       padding: 1rem 2rem;
       background: transparent;
@@ -115,14 +116,15 @@ a {
       border-radius: 5px;
       margin: 0.2rem 0;
       transition: 0.3s ease-in-out; }
-      #container-right .form-group input:focus {
+      #container-right .form-group input:focus,
+      #container-right .form-group .btn:focus {
         background: #25262b;
         outline: none;
         border: 1px solid #ffcd42; }
     #container-right .form-group input[type="name"],
     #container-right .form-group input[type="email"],
     #container-right .form-group input[type="tel"],
-    #container-right .form-group input[type="submit"] {
+    #container-right .form-group .btn {
       width: 100%; }
     #container-right .form-group input[type="name"] {
       background: url(../assets/at-sign.svg) no-repeat scroll 0.4375rem 0.4375rem/cover;
@@ -139,13 +141,13 @@ a {
       background-size: 1rem;
       background-position-x: 10px;
       background-position-y: 18px; }
-    #container-right .form-group input[type="submit"] {
+    #container-right .form-group .btn {
       background: #ffcd42;
       border: none;
       cursor: pointer;
       color: #1d1e22;
       font-weight: 600; }
-    #container-right .form-group input[type="submit"]:hover {
+    #container-right .form-group .btn:hover {
       background: #ffd151; }
   #container-right .form-group .socials {
     text-align: center;

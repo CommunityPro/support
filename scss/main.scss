@@ -141,7 +141,8 @@ a {
     }
 
     //  Input Fields
-    input {
+    input,
+    .btn {
       font-family: $font-stack-2;
       padding: 1rem 2rem;
       background: transparent;
@@ -161,7 +162,7 @@ a {
     input[type="name"],
     input[type="email"],
     input[type="tel"],
-    input[type="submit"] {
+    .btn {
       width: 100%;
     }
 
@@ -193,7 +194,7 @@ a {
     }
 
     //  Submit Button
-    input[type="submit"] {
+    .btn {
       background: $primary-color;
       border: none;
       cursor: pointer;
@@ -201,7 +202,7 @@ a {
       font-weight: 600;
     }
 
-    input[type="submit"]:hover {
+    .btn:hover {
       background: lighten($color: $primary-color, $amount: 3);
     }
   }
