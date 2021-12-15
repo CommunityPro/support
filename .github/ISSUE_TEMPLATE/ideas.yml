@@ -21,4 +21,3 @@ body:
       label: Add more details about the idea or feature
     validations:
       required: false
-  -
