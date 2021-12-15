@@ -1,0 +1,24 @@
+name: Ideas
+description: Have a suggestion for a new idea or feature?
+title: "[FEATURE REQUEST] <description here>"
+labels: [enhancement]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the idea or feature 
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Add several screenshots or links related to the idea or feature (if applicable)
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Add more details about the idea or feature
+    validations:
+      required: false
+  -
