@@ -28,7 +28,7 @@
 
 <!-- ?Do you have any additional questions you will like to ask? -->
 
-**Have you read the <a href="">contribution Guidelines</a>?**
+**Have you read the <a href="/CONTRIBUTING.md">contribution Guidelines</a>?**
 
 <!-- Add an X into the box to check any option. Like so: [x] -->
 
