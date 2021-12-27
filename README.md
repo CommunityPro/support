@@ -8,15 +8,15 @@ Welcome to our community support page.
 
 If you have any questions, you can refer to the community moderators or support.
 
-## 🆘 Communitypro FAQ
+## Communitypro FAQ
 
 This is a list of all frequently asked questions about this community.
 
-## 🚸 How do I join CommunityPro?
+## How do I join CommunityPro?
 
-You can join this organization by <a href="https://github.com/CommunityPro/support/issues/new?assignees=evavic44&labels=invite+me+to+the+organisation&template=invitation.yml&title=Please+invite+me+to+the+GitHub+Community+Organization">Raising an issue on this repository</a>.
+You can join this organization by <a href="https://github.com/CommunityPro/support/issues/new?assignees=evavic44&labels=invite+me+to+the+organisation&template=invitation.yml&title=Please+invite+me+to+the+GitHub+Community+Organization">Raising an issue on this repository</a> or filling this <a href="https://communitypro.netlify.app/">form</a>.
 
-## 👀 How to make the organization public?
+## How to make the organization public?
 
 Are you already a member of this community, follow these steps to make this organization public on your profile.
 
