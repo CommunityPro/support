@@ -2,7 +2,6 @@ name: Invitation to the Community Organization
 description: I would like to be part of this awesome community
 title: "Please invite me to the Community Organization"
 labels: [invite me to the organisation]
-assignees: "evavic44"
 body:
   - type: input
     id: name
@@ -11,14 +10,21 @@ body:
       placeholder: Insert your name here
     validations:
       required: true
+  - type: input
+    id: Discord Username
+    attributes:
+      label: Discord Username (if applicable) E.g John#412
+      placeholder: Insert your Discord username here
+    validations:
+      required: false
   - type: textarea
     id: Additional
     attributes:
-      label: Additional Context
-      description: How did you learn about communitypro? and why do you want to join?
+      label: Questions & suggestions?
+      description: Do you have any questions or suggestions?
     validations:
-      required: true
+      required: false
   - type: markdown
     attributes:
       value: |
-        Feel free to check out other cool repositories of the Communitypro [here](https://github.com/CommunityPro/support)
+        Thanks for taking the time to fill out this form! You can join communitypro [Whatsapp](https://chat.whatsapp.com/BMFVTksMg269GdgsviJzLm) group if you want. You can also check out cool repositories of Communitypro [here](https://github.com/CommunityPro/support)
