@@ -114,6 +114,7 @@ a {
   .form-header {
     font-family: $font-stack-2;
     text-align: center;
+    margin-bottom: 30px;
     h1 {
       font-size: 1.5rem;
       font-weight: 600;
@@ -132,6 +133,21 @@ a {
     }
   }
 
+  // Call to Action
+  .form-cta {
+    font-family: $font-stack-2;
+    text-align: center;
+    p {
+      font-weight: 600;
+      color: $light-color;
+      margin-bottom: 1rem;
+    }
+    li{
+       list-style: none;
+       padding-bottom: 5px;
+    }
+  }
+
   // Form Group
   .form-group {
     margin: 0.4rem 0;
@@ -144,6 +160,8 @@ a {
     input,
     .btn {
       font-family: $font-stack-2;
+      font-size: 1.4rem;
+      text-align: center;
       padding: 1rem 2rem;
       background: transparent;
       color: $light-color;
@@ -266,13 +284,10 @@ a {
     grid-auto-rows: 200px auto;
     transition: 0.3s ease-in-out;
   }
-
-  #container-left {
-    padding: 1rem;
-    .overlay {
-      h2 {
-        font-size: 2rem;
-      }
-    }
+}
+  // Desktop screens
+@media (min-width: 992px) {
+  .form-container {
+    margin-top: 80px;
   }
 }
