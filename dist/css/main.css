@@ -102,6 +102,15 @@ a {
     #container-right .form-header p {
       color: #6c6e72;
       margin-bottom: 1rem; }
+  #container-right .form-cta {
+    font-family: "Poppins", sans-serif;
+    text-align: center; }
+    #container-right .form-cta p {
+      color: #ffffff;
+      margin-bottom: 1rem; }
+    #container-right .form-cta li {
+      list-style: none;
+      padding-bottom: 5px; }
   #container-right .form-group {
     margin: 0.4rem 0; }
     #container-right .form-group label {
@@ -109,6 +118,8 @@ a {
     #container-right .form-group input,
     #container-right .form-group .btn {
       font-family: "Poppins", sans-serif;
+      font-size: 1.5rem;
+      text-align: center;
       padding: 1rem 2rem;
       background: transparent;
       color: #ffffff;

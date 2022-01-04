@@ -132,6 +132,20 @@ a {
     }
   }
 
+  // Call to Action
+  .form-cta {
+    font-family: $font-stack-2;
+    text-align: center;
+    p {
+      color: $light-color;
+      margin-bottom: 1rem;
+    }
+    li{
+       list-style: none;
+       padding-bottom: 5px;
+    }
+  }
+
   // Form Group
   .form-group {
     margin: 0.4rem 0;
@@ -144,6 +158,8 @@ a {
     input,
     .btn {
       font-family: $font-stack-2;
+      font-size: 1.5rem;
+      text-align: center;
       padding: 1rem 2rem;
       background: transparent;
       color: $light-color;
