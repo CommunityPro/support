@@ -34,4 +34,4 @@ Are you already a member of this community, follow these steps to make this orga
 
 Now you should see communitypro on your GitHub profile page.
 
-Did we leave any important FAQ, rasie an issue to add them here 👉🏽 <a href="">Issue</a>
+Did we leave any important FAQ, raise an [issue](https://github.com/CommunityPro/support/issues/new/choose) to add them here.
