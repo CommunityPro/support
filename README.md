@@ -22,16 +22,16 @@ Are you already a member of this community, follow these steps to make this orga
 
 - Navigate to the <a href="https://github.com/CommunityPro">community homepage</a> and click the <a href="https://github.com/orgs/CommunityPro/people">people</a> link.
 
-<img src="https://user-images.githubusercontent.com/62628408/149668652-2af0cb09-df03-4fdb-94b1-8d9aac0d27bb.png" width="700px">
+<img src="https://user-images.githubusercontent.com/62628408/149668652-2af0cb09-df03-4fdb-94b1-8d9aac0d27bb.png">
 
 
 - In the search box, enter your name or username.
 
-<img src="https://user-images.githubusercontent.com/62628408/149668677-7b71fb2c-8099-46d5-b265-8807e9ff33ae.png" width="700px">
+<img src="https://user-images.githubusercontent.com/62628408/149668677-7b71fb2c-8099-46d5-b265-8807e9ff33ae.png">
 
 - On the far right, click the `private` dropdown and select `public`
 
-<img src="https://user-images.githubusercontent.com/62628408/149668690-bcf7494c-817c-4cbe-9a7e-58dc37c6262e.png" width="700px">
+<img src="https://user-images.githubusercontent.com/62628408/149668690-bcf7494c-817c-4cbe-9a7e-58dc37c6262e.png">
 
 Now you should see communitypro on your GitHub profile page.
 
