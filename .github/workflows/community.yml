@@ -13,7 +13,7 @@ jobs:
       - name: "Greet the contributor"
         uses: garg3133/welcome-new-contributors@v1.2
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: "# Welcome to CommunityPro \n\ Thank you @contributor_name for raising an Issue in this community! :zap: \n\ If you are willing to join the community, connect via 
           - [WhatsApp](https://chat.whatsapp.com/BMFVTksMg269GdgsviJzLm)
           - [LinkedIn](https://www.linkedin.com/company/communitypro)
