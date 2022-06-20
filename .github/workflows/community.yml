@@ -1,3 +1,5 @@
+name: "Welcome New Contributors"
+
 on:
   issues:
     types: [opened]
@@ -5,17 +7,18 @@ on:
     types: [opened]
 
 jobs:
-  welcome:
+  welcome-new-contributor:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/first-interaction@v1
+      - name: "Greet the contributor"
+        uses: garg3133/welcome-new-contributors@v1.2
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "# Welcome to CommunityPro \n\ Thank you @contributor_name for raising an Issue in this community! \n\ If you are willing to join the community, connect via 
+          issue-message: "# Welcome to CommunityPro \n\ Thank you @contributor_name for raising an Issue in this community! :zap: \n\ If you are willing to join the community, connect via 
           - [WhatsApp](https://chat.whatsapp.com/BMFVTksMg269GdgsviJzLm)
           - [LinkedIn](https://www.linkedin.com/company/communitypro)
-          - [CommunityPro Organization Page](https://github.com/CommunityPro) by raising an [Issue](https://github.com/CommunityPro/support/issues/new?assignees=&labels=invite+me+to+the+organisation&template=invitation.yml&title=Please+invite+me+to+the+Community+Organization) \n\ We appreciate every contribution, so consider adding your profile in the [Pratice Contribution](https://github.com/CommunityPro/Practice-Contribution)"
-          pr-message: "# Welcome to CommunityPro \n\ Thank you @contributor_name for making a pull request in this community! \n\ If you are willing to join the community, connect via 
+          - [CommunityPro Organization Page](https://github.com/CommunityPro) by raising an [Issue](https://github.com/CommunityPro/support/issues/new?assignees=&labels=invite+me+to+the+organisation&template=invitation.yml&title=Please+invite+me+to+the+Community+Organization) \n\ We appreciate every contribution, so consider adding your profile in the [Pratice Contribution](https://github.com/CommunityPro/Practice-Contribution) \n\ ## Happy Coding :rocket:"
+          pr-message: "# Welcome to CommunityPro \n\ Thank you @contributor_name for making a pull request in this community! :zap: \n\ If you are willing to join the community, connect via 
           - [WhatsApp](https://chat.whatsapp.com/BMFVTksMg269GdgsviJzLm]
           - [LinkedIn](https://www.linkedin.com/company/communitypro)
-          - [CommunityPro Organization Page](https://github.com/CommunityPro) by raising an [Invitational Issue](https://github.com/CommunityPro/support/issues/new?assignees=evavic44&labels=invite+me+to+the+organisation&template=invitation.yml&title=Please+invite+me+to+the+Community+Organization] \n\ We appreciate every contribution, so consider adding your profile in the [Pratice Contribution](https://github.com/CommunityPro/Practice-Contribution)"
+          - [CommunityPro Organization Page](https://github.com/CommunityPro) by raising an [Invitational Issue](https://github.com/CommunityPro/support/issues/new?assignees=evavic44&labels=invite+me+to+the+organisation&template=invitation.yml&title=Please+invite+me+to+the+Community+Organization] \n\ We appreciate every contribution, so consider adding your profile in the [Pratice Contribution](https://github.com/CommunityPro/Practice-Contribution) \n\ ## Happy Coding :rocket:"
